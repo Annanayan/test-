@@ -1,12 +1,12 @@
 'use client';
 
-import Hero from '@components/Hero';
-import SkillsCarousel from '@components/SkillsCarousel';
-import ProjectCard from '@components/ProjectCard';
-import { projects } from '@data/projects';
+import Hero from '@/components/Hero';
+import SkillsCarousel from '@/components/SkillsCarousel';
+import ProjectCard from '@/components/ProjectCard';
+import { projects } from '@/data/projects';
 
-export default function Home() {
-  const heroProjectA = projects.find((p) => p.id === 'diagnostic-game-design');
+export default fun/ction Home() {
+  const heroPr/ojectA = projects.find((p) => p.id === 'diagnostic-game-design');
   const heroProjectB = projects.find((p) => p.id === 'math-village');
 
   const gridGroup1Ids = ['multimodal-geometry','ai-edtech-b2b','user-research-product-growth','ddpm-research'];
